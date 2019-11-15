@@ -10,7 +10,8 @@
 </head>
 <body>
     <header>
-        <h1>Práctica 1.16</h1>
+        <h1>Práctica 1.16</h1><br>
+        <h2>Formulario 1</h2><br>
     </header>
     <main>
         <table border= "0" id="1">
@@ -145,7 +146,8 @@
                 </select>
             </p>
         </td>
-        <tr>
+    </tr>
+        <tr class="gris">
             <td>
                 <p>Tipo de vía: <br>
                     <select name="menu11">
@@ -165,7 +167,7 @@
             </p>
             </td>
         </tr>
-        <tr>
+        <tr class="gris">
             <td>
                 <p>Urb./Pol./Otros <br>
                     <input type="text">
@@ -192,7 +194,7 @@
                 </p>
             </td>
         </tr>
-        <tr>
+        <tr class="gris">
             <td>
                 <p>Teléfono movil: <br>
                     <input type="number">
@@ -221,7 +223,38 @@
                 </p>
             </td>
             </tr>
-    </table>
-    </main>
+            <tr>
+                <td colspan="4"><hr>
+                  <div id="boton">
+                      <p id="texto">Continuar</p>
+                  </div>
+                </td>
+            </tr>
+    </table><br>
+    <h2>Formulario 2</h2><br>
+    <h2 id="cuenta"> <img id="imagen" src="img/reloj.jpg" alt="error" style=> Abra su cuenta nómina en menos de 5 minutos.</h2>
+    </main><br>
+    <table align="center" border="0">
+        <tr>
+            <td>
+                <p>E-mail*: <br>
+                    <input type="text">
+                </p>
+            </td>
+            <td>
+                <p>DNI o tarjeta de residencia*: <br>
+                    <input type="text">
+                </p>
+            </td>
+            <td>
+                <p>Fecha de nacimiento*: <br>
+                    <input type="date">
+                </p>
+            </td>
+        </tr>
+    </table><br>
+    <p class="centro">Consulte la información de la cuenta nómina que también encontrará en el apartado "información legal"</p>
+    <object id="pdf" data="img/InfPrecontractual.pdf" type=""></object>
+</main>
 </body>
 </html>
